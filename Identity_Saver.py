@@ -9,13 +9,13 @@ else:
 
 class identity:
     def __init__(self, name, age, standard, hieght):
-        self.name = name
+        self.name = name #Soon There Will Update Of Search Option To Get Identity Wanted Instantly Without Any Long Scrolling! 
         self.age = age
         self.standard = standard
-        self.hieght = hieght
+        self.hieght = hieght #Can Be Added More Options ,Either Depends On How Many Amount Of Identity You Want To Save
 
     def string(self):
-        return f"\n==>{self.name} IDENTITY:\n\tName Is {self.name}\n\tAge Is {self.age}\n\tStandard Is {self.standard} Class Student\n\tHieght Is {self.hieght}"
+        return f"\n==>{self.name} IDENTITY:\n\tName Is {self.name}\n\tAge Is: {self.age}\n\tStandard Is {self.standard} Class Student\n\tHieght Is: {self.hieght} CM"
     def info(self):
         print(self.string())
 
